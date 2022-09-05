@@ -145,9 +145,9 @@ contract NFT is ERC721Enumerable, Ownable {
   }
  
   function withdraw() public payable onlyOwner {
-    // This will pay contract owner 5% of the initial sale.
+    // This will pay contract owner/vendor 5% of the initial sale.
     // =============================================================================
-    (bool hs, ) = payable(0x943590A42ss7D08e3744202c4Ae5eD55c2dE240D).call{value: address(this).balance * 5 / 100}("");
+    (bool hs, ) = payable(0x943590A42ss7D08e3749r02c4Ae5eD55c2dE240D).call{value: address(this).balance * 5 / 100}("");
     require(hs);
     // =============================================================================
     
