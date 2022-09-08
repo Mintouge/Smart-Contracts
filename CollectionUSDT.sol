@@ -10,7 +10,7 @@
 /_/  /_/_/_/ /_/\__/\____/\__,_/\__, /\___/ 
                                /____/       
 
-Mintouge Smart Contract - Multi ERC-20 Currency
+Mintouge Smart Contract ERC721- Multi Currency
 */
 
 import "@openzeppelin/contracts/access/Ownable.sol";
